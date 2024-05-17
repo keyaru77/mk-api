@@ -60,7 +60,7 @@ router.get("/mangaku", async (req, res) => {
   }
 });
 
-router.get("/", async (req, res) => {
+router.get("/upch", async (req, res) => {
   let url = "https://mangakita.net/";
 
   try {
